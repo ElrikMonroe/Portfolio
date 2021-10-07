@@ -6,15 +6,29 @@
 const images = document.querySelectorAll('.image');
 console.log(images);
 
+    
+const changeImage = () => {
+    
+};
+
 for (let i = 0; i < images.length; i++) {
-    if (images[i].classList.contains('active')) {
-        images[i].classList.remove('active')
-    }
     images[i].addEventListener("click", () => {
-        images[i].classList.toggle('active');
+        images.forEach((image) => {
+            if (image.classList.contains('active')) {
+                image.classList.remove('active')
+            }
+        });
+        images[i].classList.add('active');
+        
     });
-    console.log(images[i]);
-}
+    
+};
 
 
+// const boxes = document.querySelectorAll(".box");
 
+// boxes.forEach((box) => {
+//     box.addEventListener("click", (e) => {
+//         e.target.style.transform = "scale(0.5)";
+//     });
+// });
