@@ -11190,7 +11190,7 @@ body {
 .artwork {
   display: flex;
   max-width: 1000px;
-  max-height: 700px;
+  height: 650px;
   margin: 2% auto;
   padding: 2%;
   border: 0.1rem #3f1602 solid;

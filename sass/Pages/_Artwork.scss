@@ -9,7 +9,7 @@
 .artwork {
     display: flex;
     max-width: 1000px;
-    max-height: 700px;
+    height: 650px;
     margin: 2% auto;
     padding: 2%;
     border: 0.1rem rgb(63, 22, 2) solid;
@@ -28,7 +28,6 @@
     &.active {
         flex-grow: 10;
         max-width: 600px;
-        
         max-height: 600px;
         margin: 0px;
         border-radius: 1rem;
