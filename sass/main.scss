@@ -1,0 +1,21 @@
+// Locals Imports
+
+@import "./Utils/variables";
+@import "./Utils/functions";
+@import "./Utils/mixins";
+
+// Import Bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Locals Imports
+
+@import "./Base/base";
+
+@import "./Components/navigationbar";
+
+@import "./Pages/home";
+@import "./Pages/Artwork";
+
+
+

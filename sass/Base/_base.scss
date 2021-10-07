@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgb(63, 22, 2), rgb(185, 121, 88));
+}
+
+
